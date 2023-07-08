@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Fabric script that Deploys archive!
+This Fabric script Deploys archive!
 """
 from datetime import datetime
 from fabric.api import *
