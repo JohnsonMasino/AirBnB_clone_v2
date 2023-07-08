@@ -5,9 +5,9 @@ Fabric script that Deploys archive!
 from datetime import datetime
 from fabric.api import *
 import shlex
-import os
+import os.path
 
-env.hosts = ['54.83.128.139', '34.207.64.39']
+env.hosts = ['100.25.164.136', '54.210.109.144']
 env.user = 'ubuntu'
 
 
@@ -17,7 +17,7 @@ def do_deploy(archive_path):
     Retruns:
         (bool): `True` if all operations successful, `False` otherwise
     """
-    if exists(archive_path) is False:
+    if os.path.exists(archive_path) is False:
         return False
     try:
         file_n = archive_path.split("/")[-1]
