@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Has the FileStorage class and defines functions
+Contains the FileStorage class
 """
 
 import json
