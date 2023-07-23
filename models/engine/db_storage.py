@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the DBStorage class and its defined functions
+Contains the class db_torage
 """
 
 import models
